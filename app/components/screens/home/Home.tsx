@@ -4,7 +4,7 @@ import CartDropdown from './cart-dropdown/CartDropdown'
 import ProductItem from './ProductItem'
 
 const Home: FC = () => {
-	const { data, isLoading, error } = useGetProductsQuery(6);
+	const { data, isLoading, error } = useGetProductsQuery(10);
 
 	return (
 
